@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+
+
+
+/* *{
+    border: 1px solid black;
+} */
+#Hero-Section{
+    font-family: "Playwrite HR Lijeva", cursive;;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../ECOMMERCE/realimage.avif");
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 5px black;   
+}
+
+#jumiaLayout{
+    background-color: green;
+    height: 300px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 1184px;
+}
+
+#jumiaLayout>*{
+    background-color: yellow;
+    min-width: 50px;
+    min-height: 50px;
+    margin: 5px;
+    width: 20%;
+}
+.center{
+    width: 40% !important; 
+}

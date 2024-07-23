@@ -1,0 +1,138 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 5%;
+    background-color: #ff4c68;
+}
+.navbarlink{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+.first-container{
+    padding: 3% 15% 5%;
+    background-color: #ff4c68;
+}
+.navbar-brand{
+    font-size: 3rem;
+    color: whitesmoke;
+}
+a:hover{
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3.5px;
+    background-color: grey;
+    text-decoration: underline;
+
+}
+.but-android{
+    background: transparent;
+    border: 1px solid white;
+}
+.btn{
+    display:flex;
+    gap: 20px;
+}
+.but-ios{
+    background: black;
+}
+.container-content{
+    text-align: left;
+}
+.but-ios:hover{
+    background:white;
+    border: none;
+    color: black;
+}
+.phone{
+    float: right;
+    /* margin-left: 30px; */
+    height: 35%;
+    width: 25%;
+    position: relative;
+    transform: rotate(25deg);
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    
+}
+h1{
+    font-size: 4em;
+}
+.secon-container{
+    background-color: white;
+    padding: 10% 15%;
+    /* display: flex; */
+    justify-content: center;
+    position: relative;
+    gap: 15%;
+}
+.cont{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 35%;
+}
+.third-container{
+    background-color: burlywood;
+}
+h2{
+    font-size: 3em;
+}
+.fourth-container{
+    background-color: white;
+    padding: 100px 100px;
+}
+.fifth-container{
+    background-color:#ff4c68;
+    padding: 100px 100px;
+}
+button{
+    border: none;
+    margin: 4px 2px;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: 1em;
+    outline: none;
+    color: white;
+    gap: 20px;
+    font-size: 1.3rem;
+    display: flex;
+    
+}
+button:hover{
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+}
+.tex{
+    font-size: 3rem;
+}
+.chihuahuad{
+    text-align: center;
+    /* justify-content: center; */
+    list-style: none;
+    border: 1px solid grey;
+    justify-content: center;
+}
+.chihuahua{
+    border: 1px;
+    padding: 70px 360px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 20px;
+
+}
+.prices{
+    justify-content: center;
+}

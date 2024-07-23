@@ -1,0 +1,23 @@
+body{
+    background-color: darkcyan;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    align-items: center;
+    background-color: mediumslateblue;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.love{
+    background-color: black;
+    /* display: block; */
+    height: 100px;
+    width: 100px;
+    justify-content: space-around;
+}

@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+}
+
+.decorated{
+    margin: auto;
+    width: 5%;
+    border-style: dotted none none;
+    border: width 5px;
+}
+
+.picture{
+    width: 15%;
+    height: 15%;
+}
+.skill-row-details{
+    text-align: left;
+}
+
+.left{
+    float: left;
+    margin-right: 30px;
+    width: 35%;
+    height: 35%;
+}
+
+.skil-row{
+    padding: 20px 30%;
+}

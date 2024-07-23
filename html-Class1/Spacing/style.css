@@ -1,0 +1,34 @@
+.dim{
+    height: 100px;
+    width: 100px;
+}
+.une{
+    background-color: red;
+    display: inline-block;
+}
+.deux{
+    background-color: black;
+    display: inline-block;
+}
+.trois{
+    background-color: blue;
+    display: inline-block;
+}
+.one{
+    margin: 0px;
+}
+.two{
+    margin: 100px;
+}
+.three{
+    margin: 200px;
+}
+.four{
+    margin: 300px;
+}
+.five{
+    margin: 200px;
+}
+.six{
+    margin: 100px;
+}

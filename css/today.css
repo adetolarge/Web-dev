@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(216, 183, 186);
+}
+.hel{
+    background-color: aliceblue;
+}
+.skills{
+    width: 721;
+    height: 662.44;
+}
+.chilli-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    height: auto;
+    width: auto;
+}
