@@ -1,6 +1,7 @@
 /* Product Listing Container Styles */
 .product-listing-container {
-    display: blockc;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     flex-wrap: wrap;
     justify-content: center;
     margin: 20px;
