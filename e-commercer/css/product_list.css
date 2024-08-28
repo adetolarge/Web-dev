@@ -1,7 +1,7 @@
 /* Product Listing Container Styles */
 .product-listing-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     flex-wrap: wrap;
     justify-content: center;
     margin: 20px;
@@ -9,11 +9,11 @@
   
   /* Product Item Styles */
   .product-item {
-    margin: 20px;
-    width: 250px;
+    margin: 10px;
+    width: 220px;
     background-color: #f7f7f7;
     border: 1px solid #ddd;
-    padding: 20px;
+    padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
@@ -55,3 +55,19 @@
   .add-to-cart-btn:hover {
     background-color: #23527c;
   }
+  @media (max-width: 650px) {
+    .product-listing-container{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+@media (min-width: 650px ) and (max-width: 859px) {
+    .product-listing-container{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}

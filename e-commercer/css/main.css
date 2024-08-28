@@ -150,5 +150,17 @@ a{
     color: black;
 }
 
+@media (max-width: 650px) {
+    #navlist{
+       gap: 80px;
+    }
+    
+}
+@media (min-width: 650px ) and (max-width: 859px) {
+    #navlist{
+      gap: 10px;
+    }
+    
+}
 
 
