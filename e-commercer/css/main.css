@@ -45,10 +45,6 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
-/* .logo{
-    height: auto;
-    width: auto;
-} */
 header{
     display: flex;
     background-color: #E3E6F3;
@@ -163,11 +159,19 @@ a{
     #navlist{
        gap: 80px;
     }
+    nav ul{
+        gap: auto;
+    }
     
 }
 @media (min-width: 650px ) and (max-width: 859px) {
     #navlist{
       gap: 10px;
+      padding: 0%;
+    }
+    nav ul{
+        gap: auto;
+        padding: 0%;
     }
     
 }
